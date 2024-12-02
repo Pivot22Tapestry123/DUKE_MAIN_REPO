@@ -43,7 +43,7 @@ st.title("Research Article Generator")
 azure_api_key = st.text_input("Enter your Azure OpenAI API Key", type="password")
 azure_api_base = "https://rstapestryopenai2.openai.azure.com/"
 azure_api_version = "2024-02-15-preview"
-deployment_name = "gpt-4"
+deployment_name = "gpt-4o"
 
 # Temperature slider
 temperature = st.slider("Set the temperature for the output (0 = deterministic, 1 = creative)", min_value=0.0, max_value=1.0, value=0.7)
